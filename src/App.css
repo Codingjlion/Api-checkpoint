@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +39,57 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.user-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-card {
+  background-color: #fff;
+  box-shadow: 1 2px 4px rgba(250, 4, 4, 0.1);
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.user-card h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  margin: 0;
+}
+
+.user-email {
+  color: #555;
+  font-size: 16px;
+}
+
+.user-phone {
+  color: #666262;
+  font-size: 16px;
+}
+
+.user-website {
+  color: #555;
+  font-size: 16px;
+}
+
